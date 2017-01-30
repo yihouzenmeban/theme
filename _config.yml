@@ -78,8 +78,11 @@ theme: next
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repository: git@github.com:yihouzenmeban/yihouzenmeban.github.io.git
+  branch: master
+- type: git
+  repository: git@git.coding.net:yihouzenmeban/blog.git
   branch: master
 
 # Swiftype Search Key
